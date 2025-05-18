@@ -18,6 +18,12 @@ pip install ollama
 ## Run Python Code
 *  Run the file local-ollama.py
 
+## Set Environment
+* Run this command and restart ollama for solving the issue of CORS
+```
+launchctl setenv OLLAMA_ORIGINS "*"
+```
+
 ## Reference
 *  https://github.com/ollama/ollama/blob/main/docs/api.md
 *  https://github.com/ollama/ollama-python
